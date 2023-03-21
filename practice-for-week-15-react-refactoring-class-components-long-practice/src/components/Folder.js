@@ -21,6 +21,12 @@ const Headers = ({ titles, currentTab, selectTab }) => {
       </li>
     );
   });
+
+  return (
+    <ul className='tab-header'>
+      {tabs}
+    </ul>
+  );
 }
 
 const Folder = (props) => {
