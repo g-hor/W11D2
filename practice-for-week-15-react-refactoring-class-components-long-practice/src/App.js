@@ -1,5 +1,6 @@
 import React from 'react';
 import Clock, { ClockToggle } from './components/Clock';
+// import ClockToggle from './components/ClockToggle';
 import Folder from './components/Folder';
 import Weather from './components/Weather';
 import Autocomplete from './components/Autocomplete';
